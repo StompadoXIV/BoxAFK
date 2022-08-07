@@ -1,0 +1,8 @@
+name: BoxAFK
+version: 1.0.0
+main: me.boxafk.BoxAFK
+depend: [ DecentHolograms ]
+softdepend: [nChat]
+authors: [ Stompado ]
+commands:
+  afk:

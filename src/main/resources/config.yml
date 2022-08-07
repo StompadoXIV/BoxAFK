@@ -1,0 +1,49 @@
+#################################################
+#                      BoxAFK                   #
+#               Plugin by: Stompado             #
+#            Plugin exclusivo da BoxStore       #
+#               © Copyright BoxStore            #
+#################################################
+
+#Prefixo das mensagens
+Prefixo:
+  Ativar: true
+  Prefixo: '&e&lAFK &8»'
+
+#Mensagens gerais
+Mensagens:
+  PalavraInadequada: '&cEsse motivo não é permitido!'
+  ModoAFKJaAtivo: '&cVocê já está em modo AFK.'
+  ModoAFKAtivado: '&aVocê entrou em modo AFK com sucesso.'
+  EmModoAFK: '&cEsse jogador está AFK.'
+  Kick: '&c&lSeuServidor.com%nl%%nl%&cVocê foi kickado do servidor após &f{tempo} &cem &fAFK&c.%nl%%nl%' #Utilize o "%nl%" para pular uma linha
+
+#Configurações gerais
+Configuracoes:
+  AnuncioAFK:
+    Ativar: true
+    AFKAtivo:
+      - ''
+      - '&fO jogador &c{jogador} &fentrou no modo &cAFK&f.'
+      - ''
+    AFKDesativo:
+      - ''
+      - '&fO jogador &c{jogador} &fsaiu do modo &cAFK&f.'
+      - ''
+  Palavroes:
+    Bloquear: true
+    Palavroes:
+      - 'fdp'
+      - 'caralho'
+      - ''
+  TempoMaximo: #Caso o jogador passe do tempo configurado em AFK é kickado do servidor
+    Ativar: false
+    Tempo: 15 #Em minutos
+  Holograma:
+    Altura: 3.5
+    Linhas:
+      - '     &6&lAFK     '
+      - ''
+      - '&7Tempo: &f{tempo}'
+      - '&7Motivo: &f{motivo}'
+      -  ''
